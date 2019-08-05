@@ -58,11 +58,11 @@
 
         // 设置标题
         if (parseInt(days / 365) != 0) {
-            $(document).attr("title", "离开" + parseInt(days / 365) + "年,感谢再次相遇。");
+            $(document).attr("title", "" + parseInt(days / 365) + "年,感谢再次相遇。");
         } else if (parseInt(days / 30) != 0) {
-            $(document).attr("title", "离开" + parseInt(days / 30) + "个月,感谢再次相遇。");
+            $(document).attr("title", "" + parseInt(days / 30) + "个月,感谢再次相遇。");
         } else
-            $(document).attr("title", "离开" + days + "天,感谢相遇。");
+            $(document).attr("title", "" + days + "天,感谢相遇。");
 
         //设置每一张图片对应的文字
         var says = new Array(
